@@ -1,0 +1,39 @@
+@use "../../scss/color" as *;
+@use "../../scss/font" as *;
+@use "../../scss/mixin" as *;
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    @media (min-width: 768px){
+        flex-direction: row;
+        width: 600px;
+    }
+    .about-box {
+        h3 {
+            font-size: 1rem;
+            text-align: center;
+        }
+        img{
+            width: 300px;
+        }
+    }
+    
+    .about-info {
+        p {
+            font-size: .9rem;
+            padding: 0 2rem 0;
+            span{
+                font-weight: bold;
+                @include animate-middle-out;
+            }
+            @media (min-width:768px) {
+                padding-left: 1rem;
+            }
+        }
+    }
+}

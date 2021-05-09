@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../../components/footer';
 import { useForm, ValidationError } from '@formspree/react';
 import "./style.scss";
-import Social from "../../components/social/index.jsx";
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("mjvjgnkw");
@@ -16,11 +15,11 @@ function ContactForm() {
             </label>
             <input
                 id="email"
-                type="email" 
+                type="email"
                 name="email"
             />
-            <ValidationError 
-                prefix="Email" 
+            <ValidationError
+                prefix="Email"
                 field="email"
                 errors={state.errors}
             />
@@ -31,8 +30,8 @@ function ContactForm() {
                 id="message"
                 name="message"
             />
-            <ValidationError 
-                prefix="Message" 
+            <ValidationError
+                prefix="Message"
                 field="message"
                 errors={state.errors}
             />
@@ -41,19 +40,20 @@ function ContactForm() {
             </button>
         </form>
     );
-  }
+}
 
 const Contact = () => {
-    
+
     return (
         <div className="page">
             <div className="general-section contact-page">
-                <h1>Let's Chat!</h1>
-                <p>Questions, concerns, booking, coffee, food, adventure? I'm always up for connecting with people.</p>
-                <ContactForm />
-                <Social/>
+                <div className="contact-box">
+                    <h1>Let's Chat!</h1>
+                    <p>Questions, concerns, booking, coffee, food, adventure? I'm always up for connecting with people.</p>
+                    <ContactForm />
+                </div>
+                <Footer />
             </div>
-            <Footer/>
         </div>
     )
 }

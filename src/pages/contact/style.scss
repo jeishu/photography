@@ -1,3 +1,6 @@
+@use "../../scss/color" as *;
+@use "../../scss/font" as *;
+@use "../../scss/mixin" as *;
 
 .contact-page {
     display:flex;
@@ -8,14 +11,17 @@
     @media (min-width: 768px){
         width: 500px;
     }
-
-    h1{
-        font-size: 1.5rem;
-        font-weight: 500;
+    .contact-box {
+        padding-top: 7rem;
+        h1{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        p {
+            font-size: .9rem;
+        }
     }
-    p {
-        font-size: .9rem;
-    }
+    
 }
 
 .contact-form {
@@ -24,6 +30,7 @@
     width: 300px;
     margin: 0 auto;
     transition: all .5s ease-in;
+    padding-bottom: 2rem;
 
     label{
         margin-bottom: .3rem;
