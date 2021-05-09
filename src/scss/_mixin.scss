@@ -17,7 +17,6 @@
         visibility: visible;
         width: 100%;
     }
-    // &:hover {color: black}
 }
 
 @mixin animate-middle-out {
@@ -38,5 +37,4 @@
         visibility: visible;
         transform: scaleX(1);
     }
-    // &:hover {color: black}
 }

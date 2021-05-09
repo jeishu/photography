@@ -1,5 +1,5 @@
 import React from 'react'
-import Social from '../social.jsx';
+import Social from '../social/index.jsx';
 import "./style.scss";
 
 const Footer = () => {

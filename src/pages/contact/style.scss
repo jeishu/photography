@@ -1,0 +1,42 @@
+
+.contact-page {
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    transition: all .5s ease-in;
+    @media (min-width: 768px){
+        width: 500px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    p {
+        font-size: .9rem;
+    }
+}
+
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    transition: all .5s ease-in;
+
+    label{
+        margin-bottom: .3rem;
+        font-size: .9rem;
+    }
+    input, textarea{
+        margin-bottom: .3rem;
+    }
+    textarea{
+        min-height: 100px;
+    }
+    button {
+        width: 100px;
+        align-self: flex-end;
+    }
+}
