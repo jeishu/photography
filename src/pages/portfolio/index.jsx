@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../../components/footer';
 import "./style.scss";
 
-const Contact = () => {
+const Portfolio = () => {
     return (
         <div className="page">
             <div className="general-section">
@@ -13,4 +13,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default Portfolio;

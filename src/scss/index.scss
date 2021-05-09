@@ -7,4 +7,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: $background-color;
+  font-family: $main-font;
+}
+
+.page {
+  .general-section {
+    height: 100vh;
+  }
 }

@@ -5,7 +5,7 @@ import RightNav from "./RightNav";
 const BurgerStyle = styled.div`
 
     .lines {
-        background-color: ${({ open }) => open ? "#ccc" : "#333"};
+        background-color: ${({ open }) => open ? "#c4c4c4" : "#686868"};
         
         &:nth-child(1) {
             transform: ${({ open }) => open ? "rotate(45deg)" : "rotate(0)"};

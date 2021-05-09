@@ -1,5 +1,5 @@
-@use "../../scss/font";
-@use "../../scss/mixin";
+@use "../../scss/font" as *;
+@use "../../scss/mixin" as *;
 @use "../../scss/color" as *;
 
 .nav-bar {
@@ -10,10 +10,8 @@
     position: fixed;
     z-index: 999;
 
-    .logo {
-        // font-family: font.$logo-font;
-        font-size: 2em;
-        margin-left: 1em;
+    @media (min-width: 768px) {
+        justify-content: space-around;
     }
 
     .burger {
@@ -27,6 +25,7 @@
         flex-flow: column nowrap;
         z-index: 20;
         display: none;
+        cursor: pointer;
     
         @media (max-width: 768px) {
             display: flex;
@@ -36,17 +35,18 @@
 
         .lines {
             width: 2rem;
-            height: 0.25rem;
-            border-radius: 10px;
+            height: 2px;
+            border-radius: 15px;
             transform-origin: 1px;
             transition: all 0.3s linear;
             // background-color is in the Burger.jsx
         }
     }
-    img {
-        width: 100px;
+    .logo {
+        width: 250px;
         height: auto;
     }
+
     ul {
         list-style: none;
         text-decoration: none;
@@ -57,12 +57,14 @@
         transition: transform 0.3s ease-in-out;
     
         li {
+            text-align: center;
             padding: 18px 10px;
 
             a {
                 text-decoration: none;
                 color: rgb(0, 0, 0);
-                // @include mixins.animate-underline-left;
+                font-weight: 200;
+                @include animate-underline-left;
             }
         }
 
@@ -74,12 +76,12 @@
             top: 0;
             right: 0;
             height: 100vh;
-            width: 150px;
+            width: 100%;
             padding: 3.5rem 0rem 0rem 2rem;
             // transform is used in the RightNav.jsx file
         }
     }
 }
 .active {
-    // border-bottom: 1px $active-color solid;
+    opacity: .5;
 }

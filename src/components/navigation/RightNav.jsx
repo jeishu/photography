@@ -15,28 +15,28 @@ const RightNav = ({ open }) => {
         <Ul open={open}>
             <li className="label">
                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                    Home
+                    HOME
                 </Link>
             </li>
             <li className="label">
                 <Link
                     to="/about"
                     className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-                    About
+                    ABOUT
                 </Link>
             </li>
             <li className="label">
                 <Link
-                    to="/projects"
-                    className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
-                    Projects
+                    to="/portfolio"
+                    className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                    PORTFOLIO
                 </Link>
             </li>
             <li className="label">
                 <Link
                     to="/contact"
                     className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                    Contact
+                    CONTACT
                 </Link>
             </li>
         </Ul>

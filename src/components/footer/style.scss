@@ -1,0 +1,15 @@
+@use "../../scss/font" as *;
+@use "../../scss/mixin" as *;
+@use "../../scss/color" as *;
+
+.footer {
+    margin: 0 auto;
+    width: 80%;
+    border-top: 1px rgba(0, 0, 0, 0.2) solid;
+    padding-top: 1rem;
+
+    p {
+        font-size: .8rem;
+        text-align: center;
+    }
+}

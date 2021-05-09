@@ -1,0 +1,23 @@
+@use "../../scss/font" as *;
+@use "../../scss/mixin" as *;
+@use "../../scss/color" as *;
+
+.social-main {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.social-container {
+    display: flex;
+    flex-direction: row;
+
+    a {
+        margin: 0 1rem 0;
+        cursor: pointer;
+        color: black;
+    }
+    
+
+}
