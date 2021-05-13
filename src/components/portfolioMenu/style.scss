@@ -1,0 +1,39 @@
+@use "../../scss/font" as *;
+@use "../../scss/mixin" as *;
+@use "../../scss/color" as *;
+
+.portfolio-menu-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    font-size: .8rem;
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+    @media (min-width:768px) {
+        width: 60%;
+    }
+
+    .portfolio-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        @media (min-width:768px) {
+            justify-content: space-evenly;
+        }
+        
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                margin: 0 .5rem 0;
+                color:black;
+                @include animate-underline-left;
+            }
+        }
+    }
+}

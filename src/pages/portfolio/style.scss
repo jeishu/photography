@@ -1,3 +1,44 @@
 @use "../../scss/color" as *;
 @use "../../scss/font" as *;
 @use "../../scss/mixin" as *;
+
+.portfolio-page {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 5rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    h1 {
+        margin: .5rem 0 .2rem;
+    }
+}
+.gallery-box {
+    .portfolio-title {
+        margin: .5rem 0 .4rem;
+        text-align: center;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: .2rem;
+        height: fit-content;
+
+        .picture{
+            width: 125px;
+            height: 175px;
+            margin: .2rem;
+            transition: all .2s ease-in-out;
+            object-fit: cover;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+

@@ -11,11 +11,12 @@ body {
 }
 
 .page {
-  height: 100vh;
+  height: fit-content;
   .general-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    // justify-content: space-between;
     height: 100%;
   }
 }

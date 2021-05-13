@@ -4,9 +4,13 @@
 
 .footer {
     margin: 0 auto;
-    width: 80%;
+    width: 300px;
     border-top: 1px rgba(0, 0, 0, 0.2) solid;
-    padding-top: 1rem;
+    padding: 1rem 0 .5rem;
+    transition: all .5s ease-in;
+    @media (min-width: 768px) {
+        width: 600px;
+    }
 
     .copyright {
         font-size: .8rem ;
