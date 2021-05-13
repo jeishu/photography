@@ -7,7 +7,7 @@ function NavTabs() {
 
     return (
         <div className="nav-bar">
-            <a href=""><img className="logo" src={Logo} alt={Logo} /></a>
+            <a href="#"><img className="logo" src={Logo} alt={Logo} /></a>
             <Burger />
         </div>
     );
