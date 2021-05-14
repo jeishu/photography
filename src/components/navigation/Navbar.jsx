@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./Navbar.scss";
 import Burger from './Burger';
 import Logo from "../../img/jeremyzhu_photography-black.svg";
