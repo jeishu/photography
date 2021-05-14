@@ -4,6 +4,7 @@ import "./style.scss";
 import PortfolioMenu from '../../components/portfolioMenu';
 import {Oliver, Ivy, Ky, Skyler} from "../../components/gallery/graduationGallery/graduation"
 import {Magnolia , BlueBonnet} from '../../components/gallery/portraitGallery/portraits';
+import BeeCave from '../../components/gallery/productGallery/product';
 
 export const Portfolio = () => {
     return (
@@ -53,6 +54,7 @@ export const Product = () => {
                 <PortfolioMenu />
                 <h1>Product</h1>
                 <div className="gallery">
+                    <BeeCave/>
                 </div>
             </div>
             <Footer />
