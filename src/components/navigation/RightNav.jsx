@@ -11,6 +11,7 @@ const Ul = styled.ul`
 
 const RightNav = ({ open }) => {
     const location = useLocation();
+
     return (
         <Ul open={open}>
             <li className="label">

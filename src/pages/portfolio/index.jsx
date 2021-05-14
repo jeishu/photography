@@ -11,6 +11,13 @@ export const Portfolio = () => {
         <div className="page">
             <div className="general-section portfolio-page">
                 <PortfolioMenu />
+                <h1>Portfolio</h1>
+                <div className="portfolio-home">
+                    <Ivy/>
+                    <BlueBonnet/>
+                    <BeeCave/>  
+                </div>
+                
             </div>
             <Footer />
         </div>

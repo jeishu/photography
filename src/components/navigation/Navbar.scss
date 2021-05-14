@@ -9,6 +9,7 @@
     justify-content: center;
     position: fixed;
     z-index: 999;
+    transition: all .5s ease-in-out;
 
     @media (min-width: 768px) {
         justify-content: space-around;
@@ -45,6 +46,7 @@
     .logo {
         width: 250px;
         height: auto;
+        transition: all .5s ease-in-out;
     }
 
     ul {
@@ -84,4 +86,10 @@
 }
 .active {
     opacity: .3;
+}
+.nav-bar.scroll {
+    background-color: rgb(186, 186, 186);
+    .logo {
+        display: none;
+    }
 }
