@@ -37,12 +37,12 @@ export const Magnolia = () => {
                         <img src={Portrait1} alt={Portrait1} className="picture" />
                         <img src={Portrait2} alt={Portrait2} className="picture" />
                         <img src={Portrait3} alt={Portrait3} className="picture" />
-                        {/* <img src={Portrait4} alt={Portrait4} className="picture" /> */}
+                        <img src={Portrait4} alt={Portrait4} className="picture" />
                         <img src={Portrait5} alt={Portrait5} className="picture" />
                         <img src={Portrait6} alt={Portrait6} className="picture" />
                         <img src={Portrait7} alt={Portrait7} className="picture" />
                         <img src={Portrait8} alt={Portrait8} className="picture" />
-                        {/* <img src={Portrait9} alt={Portrait9} className="picture" /> */}
+                        <img src={Portrait9} alt={Portrait9} className="picture" />
                     </div>
                 </SRLWrapper>
             </SimpleReactLightbox>
@@ -57,7 +57,7 @@ export const BlueBonnet = () => {
             <SimpleReactLightbox>
                 <SRLWrapper options={options}>
                     <div className="gallery">
-                        {/* <img src={Blue1} alt={Blue1} className="picture" /> */}
+                        <img src={Blue1} alt={Blue1} className="picture" />
                         <img src={Blue2} alt={Blue2} className="picture" />
                         <img src={Blue3} alt={Blue3} className="picture" />
                         <img src={Blue4} alt={Blue4} className="picture" />
@@ -65,7 +65,7 @@ export const BlueBonnet = () => {
                         <img src={Blue6} alt={Blue6} className="picture" />
                         <img src={Blue7} alt={Blue7} className="picture" />
                         <img src={Blue8} alt={Blue8} className="picture" />
-                        {/* <img src={Blue9} alt={Blue9} className="picture" /> */}
+                        <img src={Blue9} alt={Blue9} className="picture" />
                     </div>
                 </SRLWrapper>
             </SimpleReactLightbox>
