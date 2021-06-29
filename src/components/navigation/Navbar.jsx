@@ -4,6 +4,7 @@ import Burger from './Burger';
 import Logo from "../../img/jeremyzhu_photography-black.svg";
 
 function NavTabs() {
+    // uses UseState for navbar scrolling on desktop
     const [navbar, setNavbar] = useState(false);
 
     const changeBackground = () => {

@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 const Ul = styled.ul`
     padding-left: 1rem;
+    /* checks for the screen size then slides in for nav */
     @media (max-width: 768px) {
         transform: ${({ open }) => open ? "translatex(0)" : "translateX(100%)"}; 
     }

@@ -6,6 +6,7 @@ import {Oliver, Ivy, Ky, Skyler} from "../../components/gallery/graduationGaller
 import {Magnolia , BlueBonnet} from '../../components/gallery/portraitGallery/portraits';
 import BeeCave from '../../components/gallery/productGallery/product';
 
+// Home Page for Portfolio
 export const Portfolio = () => {
     return (
         <div className="page">
@@ -24,6 +25,7 @@ export const Portfolio = () => {
     )
 }
 
+// Sub nav for portfolio page
 export const Graduation = () => {
     return (
         <div className="page">

@@ -4,6 +4,7 @@ import RightNav from "./RightNav";
 
 const BurgerStyle = styled.div`
 
+    /* Animation hamburger menu */
     .lines {
         background-color: ${({ open }) => open ? "#c4c4c4" : "#686868"};
         

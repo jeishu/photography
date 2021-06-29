@@ -5,6 +5,7 @@ import Hero from "../../img/foto-1.jpg";
 import { Link, useLocation } from "react-router-dom";
 
 const Home = () => {
+    // checks for the location or url
     const location = useLocation();
 
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                         <h1>Jeremy Zhu</h1>
                         <ul>
                             <li className="label">
+                                {/* ternary operator used to check the to see if the current page is active then apply css*/}
                                 <Link
                                     to="/about"
                                     className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>

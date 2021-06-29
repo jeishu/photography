@@ -3,6 +3,8 @@ import Footer from '../../components/footer';
 import { useForm, ValidationError } from '@formspree/react';
 import "./style.scss";
 
+// uses formspree for the contact form
+
 function ContactForm() {
     const [state, handleSubmit] = useForm("mjvjgnkw");
     if (state.succeeded) {

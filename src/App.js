@@ -8,6 +8,7 @@ import Contact from "./pages/contact/index";
 
 function App() {
   return (
+    // checks for different routes and location for the url
     <Router>
       <Navbar />
       <Switch>

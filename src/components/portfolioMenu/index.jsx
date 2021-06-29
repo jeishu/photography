@@ -9,7 +9,9 @@ const PortfolioMenu = () => {
         <div className="portfolio-menu-container">
             <ul className="portfolio-menu">
                 <li className="label">
-                    <Link to="/portfolio/graduation" className={location.pathname === "/portfolio/graduation" ? "nav-link active" : "nav-link"}>
+                    <Link 
+                        to="/portfolio/graduation" 
+                        className={location.pathname === "/portfolio/graduation" ? "nav-link active" : "nav-link"}>
                         Graduation
                     </Link>
                 </li>
